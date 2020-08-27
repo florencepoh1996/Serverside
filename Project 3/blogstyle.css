@@ -1,0 +1,341 @@
+/* 1 rem = 16px*/ 
+/* class use . */
+/* id use # */
+/* padding/margin (top, right, bottom, left)*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/*body {
+	background-color: #132226;
+
+}*/
+
+
+/*Login Page*/
+
+header {
+	background-color: #525B56;
+	padding: 1.5rem;
+	font-family: Helvetica, sans-serif;
+	font-size: 40px;
+	color: white;
+	
+}
+
+header a {
+	text-decoration: none;
+	color: white;
+}
+
+#proicon {
+	position: fixed;
+	top: 1rem;
+	right: 1rem;
+}
+
+#login {
+	color: white;
+	font-family: Helvetica, sans-serif;
+	padding: 3rem;
+	width: 40%;
+	height: 15rem;
+	background-color: #A4978E;
+	margin-left: 22rem;
+	margin-top: 8rem;
+	border-color:#525B56;
+	border-style: solid;
+	border-width: 0.5rem;
+}
+
+#login h1 {
+	font-size: 3rem;
+	margin-bottom: 4rem;
+}
+
+#login label {
+	background-color: #A4978E;
+}
+
+#login input {
+	width: 12rem;
+}
+
+#button input{
+	width: 5rem;
+}
+
+
+/*Blog Page*/
+
+header {
+	font-family: Helvetica, sans-serif;
+}
+
+body {
+	background-color: #A4978E;
+	height: 20rem;
+}
+
+.art {
+	width: 60%;
+	margin: auto;
+	background-color: #BE9063;
+
+}
+
+.art h2 {
+	font-size: 2.5rem;
+	margin-top: 1rem;
+	padding-left: 0.5rem;
+}
+
+.art a{
+	text-decoration: none;
+	color: black;
+	font-family: Helvetica, sans-serif;
+}
+
+.art a:hover{
+	color: white;
+}
+
+.art h3{
+	font-size: 1.8rem;
+	padding-left: 1rem;
+	font-style: italic;
+}
+
+.art p {
+	margin-bottom: 1rem;
+	padding: 2rem;
+}
+
+.line {
+	width: 50%;
+	margin: auto;
+	border-style: dotted;
+	border-width: 1px;
+	border-color: #132226;
+}
+
+#filter {
+	margin-top: 1rem;
+}
+
+#filter label {
+	background-color: #A4978E;
+}
+
+
+/*Admin Page*/
+ #out {
+ 	position: absolute;
+ 	top: 1rem;
+ 	right:1rem;
+ }
+
+ #see {
+ 	position: absolute;
+ 	top: 3rem;
+ 	right:1rem;
+ }
+
+ #out a {
+ 	text-decoration: none;
+	color: white;
+	font-family: Helvetica, sans-serif;
+	font-size: 15px;
+ }
+
+#out a:hover {
+	color: #BE9063;
+}
+
+ #see a {
+ 	text-decoration: none;
+	color: white;
+	font-family: Helvetica, sans-serif;
+	font-size: 15px;
+ }
+
+ #see a:hover {
+	color: #BE9063;
+}
+
+#settings {
+	float: right;
+	margin-right: 0.5rem;
+	margin-top: 0.5rem;
+}
+
+#empty {
+	background-color: #A4978E;
+	height: 1rem;
+}
+
+
+#blog {
+	padding-top: 1rem;
+	width: 80%;
+	padding-bottom: 1rem;
+	background-color: #BE9063;
+	margin: auto;
+
+}
+
+label {
+	background-color: #BE9063;
+	font-family: Helvetica, sans-serif;
+}
+
+input {
+	width: 20rem;
+}
+
+textarea {
+ 	width: 40rem;
+ 	height: 15rem;
+ }
+
+ select {
+ 	width: 10rem;
+ }
+
+
+article h3 {
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+	padding: 1.5rem;
+	font-size: 30px;
+
+}
+
+
+#entries {
+	display: flex;
+	flex-flow: row wrap;
+	margin: auto;
+	justify-content: center;
+}
+
+.brag {
+	background-color: #BE9063;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-around;
+	height: 5rem;
+	margin-left: 5rem;
+	margin-bottom: 1rem;
+	padding: 2rem;
+	/*width: 18rem;*/
+	/*overflow: auto;*/
+}
+
+#bragit{
+	width: 5rem;
+}
+
+.brag h1{
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+
+.brag p {
+	font-family: Helvetica, sans-serif;
+	text-align: center;
+	padding: 0.5rem;
+}
+
+/*Profile Page*/
+#profilepic {
+	float: left;
+	margin: 1rem;
+	padding-left: 15rem;
+}
+
+#upload {
+	position: absolute;
+	bottom: 5rem;
+}
+
+
+#details {
+	float: right;
+	margin: 1rem;
+	padding-right: 15rem;
+	padding-top: 3rem;
+}
+
+#details label {
+	background-color: #A4978E;
+}
+
+#details input {
+	width: 10rem;
+}
+
+
+/*Single Entry Page*/
+
+#article {
+	width: 80%;
+	height: 25rem;
+	text-align: center;
+	margin: auto;
+	padding: 2rem;
+	background-color: #BE9063;
+}
+
+#article h2 {
+	font-family: Helvetica, sans-serif;
+	font-size: 40px;
+
+}
+
+#article h3 {
+	text-align: right;
+	font-family: Helvetica, sans-serif;
+	font-size: 25px;
+	padding-right: 10rem;
+	font-style: italic;
+}
+
+#article p {
+	font-family: Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+
+footer p {
+	background-color: #040C0E;
+	color: white;
+	font-family: Helvetica, sans-serif;
+	padding: 2rem;
+	clear: both;
+}
+
