@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+xmlns:html="http://www.w3.org/TR/REC-html40">
+<Worksheet ss:Name="Table1">
+	<Table>
+		<Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="3" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="5" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="6" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="9" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Column ss:Index="10" ss:AutoFitWidth="0" ss:Width="110"/>
+		<Row>
+			<Cell><Data ss:Type="String">id</Data></Cell>
+			<Cell><Data ss:Type="String">movie_name</Data></Cell>
+			<Cell><Data ss:Type="String">genre</Data></Cell>
+			<Cell><Data ss:Type="String">release_year</Data></Cell>
+			<Cell><Data ss:Type="String">directors</Data></Cell>
+			<Cell><Data ss:Type="String">main_cast</Data></Cell>
+			<Cell><Data ss:Type="String">ratings</Data></Cell>
+			<Cell><Data ss:Type="String">synopsis</Data></Cell>
+			<Cell><Data ss:Type="String">box_office</Data></Cell>
+			<Cell><Data ss:Type="String">poster</Data></Cell>
+		</Row>
+
+		<Row>
+			<Cell><Data ss:Type="Number">1</Data></Cell>
+			<Cell><Data ss:Type="String">Black Panther</Data></Cell>
+			<Cell><Data ss:Type="String">Adventure,Fantasy, Science Fiction</Data></Cell>
+			<Cell><Data ss:Type="Number">2018</Data></Cell>
+			<Cell><Data ss:Type="String">Ryan Coogler</Data></Cell>
+			<Cell><Data ss:Type="String">Chadwick Boseman, Michael B. Jordan, Lupita Nyong'o, Danai Gurira</Data></Cell>
+			<Cell><Data ss:Type="Number">7.3</Data></Cell>
+			<Cell><Data ss:Type="String">After the death of his father, T'Challa returns home to the African nation of Wakanda to take his rightful place as king.</Data></Cell>
+			<Cell><Data ss:Type="String">$1.3 billion</Data></Cell>
+			<Cell><Data ss:Type="String">blackpanther.jpg</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">2</Data></Cell>
+			<Cell><Data ss:Type="String">Deadpool 2</Data></Cell>
+			<Cell><Data ss:Type="String">Comedy, Science Fiction, Action, Romance</Data></Cell>
+			<Cell><Data ss:Type="Number">2016</Data></Cell>
+			<Cell><Data ss:Type="String">Tim Miller</Data></Cell>
+			<Cell><Data ss:Type="String">Ryan Reynolds</Data></Cell>
+			<Cell><Data ss:Type="Number">7.3</Data></Cell>
+			<Cell><Data ss:Type="String">A wisecracking mercenary gets experimented on and becomes immortal but ugly, and sets out to track down the man who ruined his looks.</Data></Cell>
+			<Cell><Data ss:Type="String">$783 million</Data></Cell>
+			<Cell><Data ss:Type="String">deadpool.jpg</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">4</Data></Cell>
+			<Cell><Data ss:Type="String">Johnny English</Data></Cell>
+			<Cell><Data ss:Type="String">Comedy, Adventure, Action</Data></Cell>
+			<Cell><Data ss:Type="Number">2003</Data></Cell>
+			<Cell><Data ss:Type="String">Peter Howitt</Data></Cell>
+			<Cell><Data ss:Type="String">Rowan Atkinson,Tasha de Vasconcelos,Ben Miller</Data></Cell>
+			<Cell><Data ss:Type="Number">6.2</Data></Cell>
+			<Cell><Data ss:Type="String">Rowan plays the eponymous lead character in a spoof spy thriller. During the course of the story we follow our hero as he attempts to single-handedly save the country from falling into the hands of a despot</Data></Cell>
+			<Cell><Data ss:Type="String">$160 million</Data></Cell>
+			<Cell><Data ss:Type="String">johnnyenglish.jpg</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">5</Data></Cell>
+			<Cell><Data ss:Type="String">Jumanji</Data></Cell>
+			<Cell><Data ss:Type="String">Comedy, Adventure, Action</Data></Cell>
+			<Cell><Data ss:Type="Number">2017</Data></Cell>
+			<Cell><Data ss:Type="String">Joe Johnston</Data></Cell>
+			<Cell><Data ss:Type="String">Dwayne Johnson,Kevin Hart,Jack Black,Karen Gillan</Data></Cell>
+			<Cell><Data ss:Type="Number">7</Data></Cell>
+			<Cell><Data ss:Type="String">Four teenagers are sucked into a magical video game, and the only way they can escape is to work together to finish the game.</Data></Cell>
+			<Cell><Data ss:Type="String">$962 million</Data></Cell>
+			<Cell><Data ss:Type="String">jumanji.jpg</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">6</Data></Cell>
+			<Cell><Data ss:Type="String">White Chicks</Data></Cell>
+			<Cell><Data ss:Type="String">Comedy, Crime</Data></Cell>
+			<Cell><Data ss:Type="Number">2004</Data></Cell>
+			<Cell><Data ss:Type="String">Keenen Ivory Wayans</Data></Cell>
+			<Cell><Data ss:Type="String">Shawn Wayans,Marlon Wayans,Terry Crews</Data></Cell>
+			<Cell><Data ss:Type="Number">5.6</Data></Cell>
+			<Cell><Data ss:Type="String">Two disgraced FBI agents go way undercover in an effort to protect hotel heiresses the Wilson Sisters from a kidnapping plot.</Data></Cell>
+			<Cell><Data ss:Type="String">$113 million</Data></Cell>
+			<Cell><Data ss:Type="String">whitechicks.jpg</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">7</Data></Cell>
+			<Cell><Data ss:Type="String">Monster-in-Law</Data></Cell>
+			<Cell><Data ss:Type="String">Comedy, Romance</Data></Cell>
+			<Cell><Data ss:Type="Number">2005</Data></Cell>
+			<Cell><Data ss:Type="String">Robert Luketic</Data></Cell>
+			<Cell><Data ss:Type="String">Jennifer Lopez,Jane Fonda,Michael Vartan,Wanda Sykes</Data></Cell>
+			<Cell><Data ss:Type="Number">5.5</Data></Cell>
+			<Cell><Data ss:Type="String">The love life of Charlotte is reduced to an endless string of disastrous blind dates, until she meets the perfect man, Kevin. Unfortunately, his merciless mother will do anything to destroy their relationship.</Data></Cell>
+			<Cell><Data ss:Type="String">$154 million</Data></Cell>
+			<Cell><Data ss:Type="String">monsterinlaw.jpg</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">8</Data></Cell>
+			<Cell><Data ss:Type="String">Ride Along</Data></Cell>
+			<Cell><Data ss:Type="String">Comedy, Action, Crime</Data></Cell>
+			<Cell><Data ss:Type="Number">2014</Data></Cell>
+			<Cell><Data ss:Type="String">Tim Story</Data></Cell>
+			<Cell><Data ss:Type="String">Ice Cube,Kevin Hart</Data></Cell>
+			<Cell><Data ss:Type="Number">6.2</Data></Cell>
+			<Cell><Data ss:Type="String">Security guard Ben must prove himself to his girlfriend's brother, top police officer James. He rides along James on a 24-hour patrol of Atlanta.</Data></Cell>
+			<Cell><Data ss:Type="String">$153 million</Data></Cell>
+			<Cell><Data ss:Type="String">ridealong.jpg</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">10</Data></Cell>
+			<Cell><Data ss:Type="String">Venom</Data></Cell>
+			<Cell><Data ss:Type="String">Thriller, Action, Sci-Fi</Data></Cell>
+			<Cell><Data ss:Type="Number">2018</Data></Cell>
+			<Cell><Data ss:Type="String">Ruben Fleischer</Data></Cell>
+			<Cell><Data ss:Type="String">Tom Hardy,Michelle Williams</Data></Cell>
+			<Cell><Data ss:Type="Number">6.7</Data></Cell>
+			<Cell><Data ss:Type="String">A failed reporter is bonded to an alien entity, one of many symbiotes who have invaded Earth. But the being takes a liking to Earth and decides to protect it.</Data></Cell>
+			<Cell><Data ss:Type="String">$855 million</Data></Cell>
+			<Cell><Data ss:Type="String">venom.jpg</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">12</Data></Cell>
+			<Cell><Data ss:Type="String">Doctor Strange</Data></Cell>
+			<Cell><Data ss:Type="String">Action, Adventure, Fantasy</Data></Cell>
+			<Cell><Data ss:Type="Number">2016</Data></Cell>
+			<Cell><Data ss:Type="String">Scott Derrickson</Data></Cell>
+			<Cell><Data ss:Type="String"> Benedict Cumberbatch, Chiwetel Ejiofor, Rachel McAdams</Data></Cell>
+			<Cell><Data ss:Type="Number">7.5</Data></Cell>
+			<Cell><Data ss:Type="String">While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts.</Data></Cell>
+			<Cell><Data ss:Type="String">$677 million</Data></Cell>
+			<Cell><Data ss:Type="String">doctorstrange.jpg</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">13</Data></Cell>
+			<Cell><Data ss:Type="String">Detective Pikachu</Data></Cell>
+			<Cell><Data ss:Type="String">Action, Adventure, Comedy</Data></Cell>
+			<Cell><Data ss:Type="Number">2019</Data></Cell>
+			<Cell><Data ss:Type="String">Rob Letterman</Data></Cell>
+			<Cell><Data ss:Type="String">Ryan Reynolds, Justice Smith, Kathryn Newton </Data></Cell>
+			<Cell><Data ss:Type="Number">7.1</Data></Cell>
+			<Cell><Data ss:Type="String">In a world where people collect PokÃ©mon to do battle, a boy comes across an intelligent talking Pikachu who seeks to be a detective.</Data></Cell>
+			<Cell><Data ss:Type="String">$166 million</Data></Cell>
+			<Cell><Data ss:Type="String">pikachu.jpg</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">14</Data></Cell>
+			<Cell><Data ss:Type="String">The Incredibles</Data></Cell>
+			<Cell><Data ss:Type="String">Animation, Action, Adventure</Data></Cell>
+			<Cell><Data ss:Type="Number">2004</Data></Cell>
+			<Cell><Data ss:Type="String">Brad Bird</Data></Cell>
+			<Cell><Data ss:Type="String">Craig T. Nelson, Samuel L. Jackson, Holly Hunter</Data></Cell>
+			<Cell><Data ss:Type="Number">8</Data></Cell>
+			<Cell><Data ss:Type="String">A family of undercover superheroes, while trying to live the quiet suburban life, are forced into action to save the world.</Data></Cell>
+			<Cell><Data ss:Type="String">$631 million</Data></Cell>
+			<Cell><Data ss:Type="String">theincredibles.jpg</Data></Cell>
+		</Row>
+		<Row>
+			<Cell><Data ss:Type="Number">18</Data></Cell>
+			<Cell><Data ss:Type="String">Tarzan</Data></Cell>
+			<Cell><Data ss:Type="String">Animation, Adventure, Family</Data></Cell>
+			<Cell><Data ss:Type="Number">1999</Data></Cell>
+			<Cell><Data ss:Type="String">Chris Buck, Kevin Lima</Data></Cell>
+			<Cell><Data ss:Type="String">Tony Goldwyn, Minnie Driver, Brian Blessed </Data></Cell>
+			<Cell><Data ss:Type="Number">7.3</Data></Cell>
+			<Cell><Data ss:Type="String">A man raised by gorillas must decide where he really belongs when he discovers he is a human.</Data></Cell>
+			<Cell><Data ss:Type="String">$448 million</Data></Cell>
+			<Cell><Data ss:Type="String">tarzan.jpg</Data></Cell>
+		</Row>	</Table>
+</Worksheet>
+</Workbook>

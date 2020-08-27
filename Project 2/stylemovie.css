@@ -1,0 +1,168 @@
+/* 1 rem = 16px*/ 
+/* class use . */
+/* id use # */
+/* padding/margin (top, right, bottom, left)*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/*Landing/Index Page*/
+#cover {
+	background-image: url('Images/cinema.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+body h1 {
+	color: white;
+	text-align: center;
+	padding-top: 5rem;
+	font-size: 35px;
+	font-family: Helvetica, sans-serif;
+	padding-bottom: 2rem;
+}
+
+
+#heading h1 {
+	color: white;
+	text-align: center;
+	padding-top: 1.5rem;
+	padding-bottom: 2rem;
+	font-size: 30px;
+	font-family: Helvetica, sans-serif;
+}
+
+p {
+	color: white;
+	font-family: Helvetica, sans-serif;
+	
+}
+
+/*Position of add icon*/
+#add img{
+	position: absolute;
+	top: 1rem;
+	right: 2rem;
+
+}
+
+/*Position of 'previous' page icon*/
+#previous {
+	position: absolute;
+	left: 1rem;
+	top: 0.5rem;
+}
+
+/*To display only 5 posters in a row*/
+#poster {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+.displayposters {
+	padding: 1rem;
+}
+
+.displayposters a{
+	text-decoration: none;
+	color: white;
+	font-family: Helvetica, sans-serif;
+	font-size: 20px;
+}
+
+.displayposters a:hover{
+	color: #FFFF00;
+
+}
+
+/*Moviedetailspage.php design */
+
+#movieposter img {
+	float: left;
+	margin-left: 10rem;
+
+}
+
+#form {
+	float: right;
+	padding: 1rem;
+	width: 30rem;
+	height: 30rem;
+	margin-right: 15rem;
+}
+
+#form label {
+	color: white;
+	font-family: Helvetica, sans-serif;
+}
+
+#newform label {
+	color: white;
+	font-family: Helvetica, sans-serif;
+}
+
+.input {
+	padding: 0.5rem;
+}
+
+.input input {
+	width: 20rem;
+}
+
+/*upload movie page*/
+
+#toupload {
+	background-color: white;
+	opacity: 0.4;
+	width: 30rem;
+	padding: 1rem;
+}
+
+#toupload p {
+	color: white;
+	font-family: Helvetica, sans-serif;
+}
+
+#add img{
+	position: absolute;
+	top: 1rem;
+	right: 2rem;
+
+}
+
+footer p {
+	text-align: right;
+	padding: 2rem;
+	clear: both;
+}
+
+
+
+
